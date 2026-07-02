@@ -1,0 +1,26 @@
+.cli-window {
+    width: 100%;
+    height: 100%;
+    background: #1e1e1e;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+
+.cli-window .xterm {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+}
+
+.cli-window .xterm-viewport {
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.cli-window .xterm-screen {
+    width: 100% !important;
+}
+
+.cli-window canvas {
+    outline: none;
+}

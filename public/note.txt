@@ -1,0 +1,164 @@
+```ts
+/**
+ * @file: profile.config.ts
+ * @author: A Harish Kumar Dora
+ * @summary: Passionate Software Engineering student focused on DSA, Full-Stack Development, and Cloud Computing.
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  languages: [
+    "C++",
+    "Java",
+    "JavaScript",
+    "SQL"
+  ],
+
+  frontend: [
+    "React.js",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL"
+  ],
+
+  learning: [
+    "Spring Boot",
+    "AWS",
+    "Docker",
+    "GitHub Actions"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Postman",
+    "Linux"
+  ]
+};
+
+// --------------------------------------------------
+// 2. DEVELOPER JOURNEY
+// --------------------------------------------------
+
+class DeveloperJourney {
+
+  /**
+   * @period Present
+   */
+  public async CurrentFocus(): Promise<CareerGrowth> {
+
+    const role = "Software Engineering Student";
+
+    const dsa = {
+      language: "C++",
+      solved: "100+ LeetCode Problems",
+      focus: [
+        "Trees",
+        "Graphs",
+        "Dynamic Programming",
+        "Binary Search",
+        "Greedy",
+        "Linked Lists"
+      ]
+    };
+
+    const development = {
+      frontend: "React.js",
+      backend: "Node.js & Express",
+      database: "MongoDB / MySQL"
+    };
+
+    const goal = "Javascript Backend Developer | Full-Stack Developer | Cloud Engineer";
+
+    return { role, dsa, development, goal };
+  }
+
+  /**
+   * @currently
+   */
+  public LearningRoadmap(): void {
+
+    this.currentlyLearning = [
+      "Spring Boot",
+      "AWS Cloud",
+      "Docker",
+      "DevOps",
+      "System Design"
+    ];
+
+    this.building = [
+      "Full Stack Projects",
+      "Portfolio",
+      "GitHub Projects"
+    ];
+  }
+}
+
+// --------------------------------------------------
+// 3. ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Achievement {
+  title: string;
+  description: string;
+}
+
+const achievements: Achievement[] = [
+  {
+    title: "DSA",
+    description: "Solved 100+ LeetCode problems in C++."
+  },
+  {
+    title: "Projects",
+    description: "Built Full-Stack applications using React, Node.js, Express, and MongoDB."
+  },
+  {
+    title: "Learning",
+    description: "Preparing for Software Development, Cloud Computing, and DevOps roles."
+  }
+];
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  [
+    "Kalinga Institute of Industrial Technology (KIIT)",
+    "B.Tech • Computer Science & Engineering"
+  ]
+]);
+
+// --------------------------------------------------
+// 5. TERMINAL
+// --------------------------------------------------
+
+export default new DeveloperJourney();
+
+/* -----------------------------------------
+   TERMINAL
+------------------------------------------ */
+
+$ harish --status
+
+> Name      : A Harish Kumar Dora
+> Role      : Software Engineering Student
+> College   : KIIT University
+> Focus     : DSA | Full-Stack Development | Java Backend
+> Learning  : Spring Boot | AWS | Docker
+> Goal      : SDE / Java Backend / Cloud Engineer
+> Status    : Open to Internships & Opportunities
+> GitHub    : Always Building 🚀
+> Ready.
+```

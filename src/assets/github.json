@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/GithubPics/ToDoList.png",
+    "title": "To Do List - Task Management App",
+    "description": "A simple and intuitive to-do list application that allows users to create, edit, and delete tasks with a clean user interface.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/harishthecodertobe/To-Do-App",
+    "demoLink": "https://harishthecodertobe.github.io/To-Do-App/"
+  },
+  {
+    "id": 2,
+    "image": "/GithubPics/TicTacToeGame.png",
+    "title": "Tic Tac Toe Game",
+    "description": "A classic implementation of the Tic Tac Toe game with a modern UI.",
+    "tags": ["HTML", "CSS", "JavaScript","React"],
+    "repoLink": "https://github.com/harishthecodertobe/TicTacToeGame",
+    "demoLink": "https://tic-tac-toe-game-self-theta.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "/GithubPics/Snake Game.png",
+    "title": "Snake Game - Classic Arcade Game",
+    "description": "A classic implementation of the Snake game with modern UI enhancements.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/harishthecodertobe/Snake-Game",
+    "demoLink": "https://harishthecodertobe.github.io/Snake-Game/"
+  },
+  {
+    "id": 4,
+    "image": "/GithubPics/Weather-App.png",
+    "title": "Weather App",
+    "description": "A simple weather application that displays current conditions and forecasts for any location.",
+    "tags": ["HTML", "CSS", "JavaScript", "API"],
+    "repoLink": "https://github.com/harishthecodertobe/WeatherAPP",
+    "demoLink": "https://harishthecodertobe.github.io/WeatherAPP/"
+  },
+  {
+    "id": 5,
+    "image": "/GithubPics/DiabetesDetection.png",
+    "title": "Diabetes Detection - Machine Learning Model",
+    "description": "A machine learning model built to predict the likelihood of diabetes based on patient data.",
+    "tags": ["Python", "Scikit-learn", "Pandas", "NumPy"],
+    "repoLink": "https://github.com/harishthecodertobe/Diabetes-Detection",
+    "demoLink": "https://diabetes-detection-xgopvdt6lfappp3hlzcv5af.streamlit.app/"
+  }
+]
