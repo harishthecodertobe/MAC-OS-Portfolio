@@ -51,6 +51,11 @@ const CLI = ({ windowName, setWindowsState }) => {
               term.writeln("projects");
               term.writeln("hobbies");
               term.writeln("clear");
+              term.writeln("Favourite IPL Team");
+              term.writeln("Favourite Player");
+              term.writeln("Favourite Bowler");
+              term.writeln("Favourite Place");
+              term.writeln("Kohli's Favourite Inning");
               break;
 
             case "about":
@@ -76,15 +81,29 @@ const CLI = ({ windowName, setWindowsState }) => {
               term.writeln("• Notes App");
               break;
 
+            case "Favourite Place":
+              term.writeln("My City Berhampur");
+              break;
             case "hobbies":
               term.writeln("Playing Cricket, Listening to Music, Travelling, Coding");
               term.writeln("Watching Movies");
               break;
-
+            case "Favourite IPL Team":
+              term.writeln("Royal Challengers Bangalore (RCB)");
+              break;
+            case "Favourite Player":
+              term.writeln("Virat Kohli");
+              break;
+            case "Favourite Bowler":
+              term.writeln("Jasprit Bumrah and Bhuvaneshwar Kumar");
+              break;
             case "clear":
               term.clear();
               break;
-
+            case "Kohli's Favourite Inning":
+              term.writeln("MCG 82 in T20 World Cup");
+              term.writeln("52 ball hundred againt Australia and Hobart Innings of 133 against peak Malinga");
+              term.writeln("Edgbaston 149 and Perth 123");
             case "":
               break;
 
